@@ -1,0 +1,62 @@
+
+
+$color-redes: azure;
+$bg-color-footer: rgb(54, 95, 141);
+$color-hover-facebook: rgb(40, 104, 221);
+$color-hover-instagram: rgb(176, 59, 199);
+$color-hover-youtube: rgb(167, 39, 39);
+$color-hover-whatsapp: rgb(5, 179, 5);
+
+$mapaColores: (
+    "azulPrincipal": #365f8d,
+    "elBlanco": azure,
+    "azulFondo": #1b2945,
+    "gris": rgb(160, 160, 160),
+    "amarilloLogos": #b19517,
+    "whiteServicios": whitesmoke,
+    "negroFondo": rgb(41, 41, 41),
+    "menuHamburguesa": cadetblue,
+);
+
+$barra2: rgb(131, 20, 0);
+$barra3: rgb(168, 70, 70);
+
+$gradiente1: rgb(29, 37, 41);
+$gradiente2: rgb(0, 70, 117);
+
+
+$letraPrincipal: 'Orbitron', sans-serif;
+$letraTexto: 'Cabin', sans-serif;
+
+
+/* Boton whatsapp */
+aside {
+    .botonWhatsApp {
+        a{
+        img {
+        width: 70px;
+        position: fixed;
+        z-index: 4;
+        bottom: 10px;
+        right: 10px;
+        }
+        }
+    }
+}
+
+/* Barra */
+.barra {
+    display: block;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    margin-left: 15%;
+    margin-right: 15%;
+    border-style: inset;
+    border-width: 2px;
+}
+
+
+/* Keyframes */
+
+@keyframes bounceInRight {
+}

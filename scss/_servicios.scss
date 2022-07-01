@@ -1,0 +1,84 @@
+
+
+section {
+    .acordeon {
+       
+        .acordeonItems {
+            background-color: map-get($map: $mapaColores, $key: "azulPrincipal");
+            color: map-get($map: $mapaColores, $key: "elBlanco");
+            border: 1px solid map-get($map: $mapaColores, $key: "elBlanco");
+            &:hover{
+                background-color: map-get($map: $mapaColores, $key: "elBlanco");
+                color: map-get($map: $mapaColores, $key: "azulPrincipal");
+            }
+        }
+    }
+
+
+    .cartaServicios {
+        margin: 0.5rem;
+        margin-right: 1.5rem;
+        .imagenServicios {
+            height: 35rem;
+        }
+        div {
+            .tituloServicios {
+                display: flex;
+                justify-content: center;
+                font-family: $letraPrincipal;
+                color: map-get($map: $mapaColores, $key: "whiteServicios" );
+                border-style: solid;
+                border-radius: 15px;
+                margin-left: 22rem;
+                margin-right: 22rem;
+                border-color: map-get($map: $mapaColores, $key: "whiteServicios" );
+                background-color: map-get($map: $mapaColores, $key: "azulPrincipal" );
+            }
+        }    
+    }
+
+    div {
+        a {
+            font-family: $letraPrincipal;
+            color: map-get($map: $mapaColores, $key: "azulPrincipal" );
+        }
+    }
+
+    .contenedorServicios {
+        border-radius: 35px;
+        margin: 0.1rem;
+        background-color: map-get($map: $mapaColores, $key: "negroFondo" );
+        h4{
+            display: flex;
+            justify-content: center;
+            margin: 1rem;
+            padding-top: 2rem;
+            font-family: $letraPrincipal;
+            color: map-get($map: $mapaColores, $key: "elBlanco" );
+        }
+        p {
+            display: flex;
+            justify-content: center;
+            margin: 1rem;
+            font-family: $letraTexto;
+            color: map-get($map: $mapaColores, $key: "elBlanco" );
+        }
+        ul {
+            
+            li {
+                @extend p;
+            }
+        }
+        .contenedorServiciosImg{
+            display: grid;
+            gap: 0.5rem;
+            grid-template-columns: 50% 50%;
+            .imagenesServicios {
+                width: 100%;
+                height: 100%;
+                border: solid 6px map-get($map: $mapaColores, $key: "azulPrincipal" );
+                border-radius: 35px;
+            }
+        }
+    }
+}

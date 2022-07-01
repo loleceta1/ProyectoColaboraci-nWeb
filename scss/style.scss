@@ -1,0 +1,138 @@
+@import "base/variables";
+@import "navbar";
+@import "inicio";
+@import "nosotros";
+@import "escuela";
+@import "servicios";
+@import "footer";
+@import "mediaqueries2";
+@import "mediaqueries";
+
+
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cabin&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* Body */
+
+body {
+    width: 100vw;
+    overflow-x: hidden;
+    min-height:100vh; 
+    margin:0; 
+    position:relative;
+}
+
+/* Formulario */
+
+.tituloBanner, .textoBanner {
+    display: flex;
+    justify-content: center;
+    font-family: 'Orbitron', sans-serif;
+}
+
+.textoBanner {
+    font-family: 'Cabin', sans-serif;
+}
+
+.barraFormulario {
+    display: block;
+    margin-top: 4rem;
+    margin-bottom: 1rem;
+    margin-left: 15%;
+    margin-right: 15%;
+    border-style: inset;
+    border-width: 2px;
+}
+
+.imagenFormulario {
+    height: 400px;
+}
+
+.imagenLogos {
+    width: 30%;
+    height: 30%;
+}
+
+.cartaLogos {
+    padding: 2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border-style: none;
+}
+
+.contendorLogos {
+    width: 100%;
+}
+
+.formulario {
+    padding: 5rem;
+}
+
+.contenedorFormulario {
+    border: 3px;
+    background: linear-gradient(rgb(54, 95, 141), rgb(78, 78, 78));
+    border-color: rgb(54, 95, 141);
+    border-style: solid;
+    border-radius: 15px;
+    box-shadow: 0px 10px 10px -6px black;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: azure;
+    font-family: 'Cabin', sans-serif;
+    font-weight: 400;
+}
+
+.tituloFormulario {
+    color: azure;
+    font-size: 24px;
+    margin-bottom: 3rem;
+    text-decoration: underline;
+    text-align: center;
+}
+
+.itemformulario1 {
+    color: azure;
+}
+
+.textoItem {
+    color: azure;
+}
+
+.botonesFormulario {
+    padding-top: 3rem;
+    display: flex;
+    gap: 4rem;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#Nombre, #Apellido, #Teléfono, #Mail, #inputState {
+    background-color: #1b2945;
+    margin-bottom:  1rem;
+}
+
+#inputState {
+    color: azure;
+}
+
+.btn {
+    border-color: azure;
+    background-color: #1b2945;
+    color: azure;
+}
+
+input::placeholder{
+    color: azure !important;
+}
+input{
+    color: azure !important;
+}

@@ -1,0 +1,100 @@
+
+/* Inicio */
+
+article {
+    .carousel-inner {
+        height: 35rem;
+    }
+}
+
+.texto {
+    color: map-get($map: $mapaColores, $key: "azulPrincipal");
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto auto;
+    justify-items: center;
+    padding: 3em;
+
+    h1 {
+        font-family: $letraPrincipal;
+    }
+    h3 {
+        font-family: $letraPrincipal;
+    }
+    .texto-index1 {
+        font-family: $letraTexto;
+        .anac {
+            text-decoration: none;
+            font-weight: 700;
+            color: map-get($map: $mapaColores, $key: "gris");
+            &:hover {color: map-get($map: $mapaColores, $key: "amarilloLogos");}
+        }
+    }
+}
+
+.contenedorPipistrel {
+    display: flex;
+    justify-content: center;
+    font-family: $letraPrincipal;
+    padding: 2rem;
+    color: map-get($map: $mapaColores, $key: "amarilloLogos");
+}
+
+.contenedorNasa {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 1rem;
+    margin-bottom: 3rem;
+}
+
+.presentacion {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 0.5rem;
+    align-items: center;
+    margin: 1rem;
+    font-family: $letraTexto;
+    background-color: map-get($map: $mapaColores, $key: "negroFondo");
+    
+    p {
+        color: map-get($map: $mapaColores, $key: "elBlanco");
+        margin: 1rem;
+    }
+    .imagenesinicio {
+        width: 600px;
+        height: 450px;
+        border: 2px solid map-get($map: $mapaColores, $key: "gris");
+    }
+}
+
+.contenedorOfertas {
+    .bodyOfertas {
+        background-color: map-get($map: $mapaColores, $key: "azulFondo");
+        border-color: map-get($map: $mapaColores, $key: "elBlanco");
+        .logos-index {
+            color: map-get($map: $mapaColores, $key: "amarilloLogos");
+            padding: 20px;
+        }
+        .card-body {
+            .tituloOfertas {
+                color: map-get($map: $mapaColores, $key: "azulPrincipal");
+                font-family: $letraPrincipal;
+            }
+            .textoOfertas {
+                color: map-get($map: $mapaColores, $key: "elBlanco");
+                font-family: $letraTexto;
+                padding-top: 4rem;
+                padding-bottom: 2rem;
+                
+            }
+            a {
+                color: map-get($map: $mapaColores, $key: "elBlanco");
+            }
+        }
+    }
+}
+
+
+
+

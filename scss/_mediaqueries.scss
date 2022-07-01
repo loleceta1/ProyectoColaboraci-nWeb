@@ -1,0 +1,243 @@
+
+/* MOBILE */
+
+@media screen and (max-width: 576px){
+   
+    .contenedorMaster {
+        width: 100%;
+        overflow-x: hidden;
+        box-sizing: border-box;
+    }
+
+   
+    /* Navbar */
+
+    .lista-nav {
+        display: none;
+    }
+
+    .navbar {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: space-evenly;
+        max-width: 576px;
+    }
+
+    .dropdown {
+        display: flex;
+        margin-right: 6rem;
+    }
+
+
+
+    .dropdown-menu {
+        background-color: cadetblue;
+        
+    }
+
+    .dropdown-item {
+        font-family: $letraPrincipal;
+    }
+
+    .itemMobile {
+        text-decoration: none;
+        color: map-get($map: $mapaColores, $key: "elBlanco" );
+
+    }
+
+    /* Logo wsp */
+
+    .botonWhatsApp img {
+        display: none;
+    }
+
+    /* Inicio */
+
+    article {
+        .carousel {
+            height: 10rem;
+        }
+    }
+
+    .texto {
+        margin-top: 5rem;
+        width: 100%;
+        
+        iframe {
+            width: 300px;
+            height: 300px;
+        }
+    }
+
+    .contenedorNasa {
+        width: 100%;
+        .imagenesNasa {
+            width: 50%;
+            height: auto;
+        }
+    }
+
+    .card-group {
+        display: block;
+    }
+
+    /*.carousel {
+        display: none;
+    }*/
+
+
+    .presentacion {
+        display: flex;
+        flex-direction: column;
+        .imagenesinicio {
+            display: none;
+        }
+
+    }
+    
+    /* Pagina Nosotros */
+
+    section {
+        .NuestroObjetivo {
+            display: flex;
+            flex-direction: column;
+            flex-wrap: nowrap;
+            margin: 0;
+        }
+    }
+
+    .contenidoNosotros {
+
+        .cardInstructor1 {
+
+            .imagenInstructor {
+                height: auto;
+            }
+
+        }
+
+        .cardPrincipalInstructores {
+            margin-top: 1rem;
+            display: grid;
+            grid-template-columns: auto auto;
+        }
+
+        .cardInstructor1 {
+
+            .cardInstructor2 {
+                
+                .instructoresH5 {
+                    font-family: $letraTexto;
+                    font-weight: 600;
+                    text-transform: uppercase;
+                    color: map-get($map: $mapaColores, $key: "azulPrincipal" );
+                    margin: 1rem;
+                }
+        
+            }
+            
+        } 
+
+
+        aside {
+            .contenedorVideo {
+                color: none;
+                padding-bottom: 2rem;
+                .videoPipistrel {
+                    width: 100%;
+                    height: 25rem;
+                }
+            }
+        }
+
+    }
+
+    /* Pagina Contacto */
+
+    .cartaMobile {
+        height: 15rem;
+    }
+
+    section {
+        div {
+            width: 100%;
+            height: auto;
+           
+        }
+    }
+
+    .formulario {
+        padding: 0 !important;
+        .contenidoFormulario {
+            .textoItem {
+                width: 20rem;
+            }
+        }
+    }
+
+
+    /* Pagina Servicios */
+
+    section {
+        .cartaServicios {
+            display: none;
+        }
+
+
+        .contenedorServicios {
+            width: 95vw;
+            .contenedorServiciosImg {
+                display: flex;
+                flex-direction: column;
+                gap: 0.5rem;
+
+            }
+
+            ul {
+                margin-top: 1.5rem;
+                li {
+                    display: flex;
+                    justify-content: start;
+                }
+            }
+        }
+    }
+
+     /* Escuela de Vuelo */
+
+    
+    .cursos{
+        div {
+            div {
+                .contenedorCursos {
+                    width: 107%;
+                    height: auto;
+                    margin: 0;
+                    margin-top: 1rem;
+                }
+            }
+        }
+        }
+    
+
+     article {
+        .bordesEscuela {
+            margin: 0;
+            .contenidoEscuela {
+                
+                .imagenContenidoEscuela {
+                    width: 100%;
+                    height: auto;
+                    box-sizing: border-box;
+                }
+            }
+        }
+    }
+
+
+    
+    
+}
+
+

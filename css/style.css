@@ -1,0 +1,712 @@
+@charset "UTF-8";
+/* Boton whatsapp */
+@import url("https://fonts.googleapis.com/css2?family=Orbitron:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cabin&display=swap");
+aside .botonWhatsApp a img {
+  width: 70px;
+  position: fixed;
+  z-index: 4;
+  bottom: 10px;
+  right: 10px; }
+
+/* Barra */
+.barra {
+  display: block;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  margin-left: 15%;
+  margin-right: 15%;
+  border-style: inset;
+  border-width: 2px; }
+
+/* Keyframes */
+@keyframes bounceInRight {}nav {
+  background-color: #365f8d; }
+  nav div {
+    font-family: "Orbitron", sans-serif; }
+    nav div ul li .nav-link {
+      color: azure; }
+      nav div ul li .nav-link:hover {
+        background-color: azure;
+        color: #365f8d; }
+
+.dropdown {
+  display: none; }
+
+/* Inicio */
+article .carousel-inner {
+  height: 35rem; }
+
+.texto {
+  color: #365f8d;
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: auto auto;
+  justify-items: center;
+  padding: 3em; }
+  .texto h1 {
+    font-family: "Orbitron", sans-serif; }
+  .texto h3, .texto .contenidoNosotros .instructores h6, .contenidoNosotros .instructores .texto h6 {
+    font-family: "Orbitron", sans-serif; }
+  .texto .texto-index1 {
+    font-family: "Cabin", sans-serif; }
+    .texto .texto-index1 .anac {
+      text-decoration: none;
+      font-weight: 700;
+      color: #a0a0a0; }
+      .texto .texto-index1 .anac:hover {
+        color: #b19517; }
+
+.contenedorPipistrel {
+  display: flex;
+  justify-content: center;
+  font-family: "Orbitron", sans-serif;
+  padding: 2rem;
+  color: #b19517; }
+
+.contenedorNasa {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 1rem;
+  margin-bottom: 3rem; }
+
+.presentacion {
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 0.5rem;
+  align-items: center;
+  margin: 1rem;
+  font-family: "Cabin", sans-serif;
+  background-color: #292929; }
+  .presentacion p, .presentacion .bordesEscuela .contenidoEscuela ul, .bordesEscuela .contenidoEscuela .presentacion ul, .presentacion .bordesEscuela .contenidoEscuela ul li, .bordesEscuela .contenidoEscuela ul .presentacion li, .presentacion .caracteristicasFlota div div .flotaTexto1 ul li, .caracteristicasFlota div div .flotaTexto1 ul .presentacion li, .presentacion section .contenedorServicios ul li, section .contenedorServicios ul .presentacion li {
+    color: azure;
+    margin: 1rem; }
+  .presentacion .imagenesinicio {
+    width: 600px;
+    height: 450px;
+    border: 2px solid #a0a0a0; }
+
+.contenedorOfertas .bodyOfertas {
+  background-color: #1b2945;
+  border-color: azure; }
+  .contenedorOfertas .bodyOfertas .logos-index {
+    color: #b19517;
+    padding: 20px; }
+  .contenedorOfertas .bodyOfertas .card-body .tituloOfertas {
+    color: #365f8d;
+    font-family: "Orbitron", sans-serif; }
+  .contenedorOfertas .bodyOfertas .card-body .textoOfertas {
+    color: azure;
+    font-family: "Cabin", sans-serif;
+    padding-top: 4rem;
+    padding-bottom: 2rem; }
+  .contenedorOfertas .bodyOfertas .card-body a {
+    color: azure; }
+
+/* Nosotros */
+.imagenNosotrosDiv {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 3rem; }
+  .imagenNosotrosDiv .imagenNosotros {
+    border-radius: 10px;
+    border: 3px dashed grey; }
+
+section .NuestroObjetivo {
+  height: auto;
+  display: grid;
+  gap: 0.5rem;
+  grid-template-columns: auto auto auto;
+  margin: 1rem; }
+  section .NuestroObjetivo .h3Nosotros {
+    align-self: center;
+    font-family: "Orbitron", sans-serif;
+    color: #365f8d; }
+    section .NuestroObjetivo .h3Nosotros hr {
+      display: block;
+      margin-top: 0.5em;
+      margin-bottom: 0.5em;
+      margin-left: 15%;
+      margin-right: 15%;
+      border-style: solid;
+      border-width: 2px;
+      border-color: #831400; }
+  section .NuestroObjetivo .textoNosotros {
+    font-family: "Cabin", sans-serif;
+    background-color: #1b2945;
+    color: azure;
+    padding: 1rem; }
+
+.contenidoNosotros {
+  background-color: #292929; }
+  .contenidoNosotros .cardsNosotros {
+    background: linear-gradient(45deg, #004675, #1d2529); }
+    .contenidoNosotros .cardsNosotros div div div .tituloCardsNosotros {
+      font-family: "Orbitron", sans-serif;
+      color: azure; }
+    .contenidoNosotros .cardsNosotros div div div .textoCardsNosotros {
+      font-family: "Cabin", sans-serif;
+      color: azure; }
+  .contenidoNosotros .instructores {
+    color: azure;
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+    justify-items: center;
+    margin: 3rem; }
+    .contenidoNosotros .instructores h3, .contenidoNosotros .instructores h6 {
+      font-family: "Orbitron", sans-serif;
+      margin-bottom: 2rem; }
+    .contenidoNosotros .instructores .textoInstructores {
+      font-family: "Cabin", sans-serif;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.15rem; }
+  .contenidoNosotros .cardInstructor1 {
+    border: 0px; }
+    .contenidoNosotros .cardInstructor1 .imagenInstructor {
+      height: 40rem; }
+    .contenidoNosotros .cardInstructor1 .cardInstructor2 {
+      background-color: #292929; }
+      .contenidoNosotros .cardInstructor1 .cardInstructor2 .instructoresH5 {
+        font-family: "Cabin", sans-serif;
+        font-weight: 600;
+        text-transform: uppercase;
+        letter-spacing: 0.15rem;
+        color: azure;
+        margin-top: 1rem;
+        padding-left: 3rem; }
+  .contenidoNosotros .cardPrincipalInstructores {
+    margin-top: 1rem; }
+    .contenidoNosotros .cardPrincipalInstructores div .contenedorInstructores {
+      background-color: #1b2945; }
+      .contenidoNosotros .cardPrincipalInstructores div .contenedorInstructores .imagenInstructores {
+        border-radius: 300px;
+        border: solid 0.3rem #365f8d; }
+      .contenidoNosotros .cardPrincipalInstructores div .contenedorInstructores div h5 {
+        font-family: "Orbitron", sans-serif;
+        color: azure; }
+  .contenidoNosotros aside .contenedorVideo {
+    color: azure;
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+    justify-items: center;
+    margin: 3rem;
+    color: none;
+    padding-bottom: 2rem; }
+    .contenidoNosotros aside .contenedorVideo .videoPipistrel {
+      width: 100%;
+      height: 40rem; }
+
+.cursos div div .contenedorCursos {
+  background-color: #1b2945;
+  color: #365f8d;
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: auto;
+  justify-items: center;
+  margin: 3rem;
+  height: 20rem;
+  width: 32rem; }
+  .cursos div div .contenedorCursos i {
+    color: #b19517;
+    padding-top: 3rem; }
+  .cursos div div .contenedorCursos hr {
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: 15%;
+    margin-right: 15%;
+    width: 50%;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #a84646; }
+  .cursos div div .contenedorCursos .textosEscuela {
+    color: azure; }
+    .cursos div div .contenedorCursos .textosEscuela h5 {
+      text-decoration: underline; }
+
+.introducciones {
+  margin: 2rem; }
+  .introducciones i {
+    color: #b19517;
+    display: flex;
+    justify-content: center; }
+  .introducciones hr {
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: 15%;
+    margin-right: 15%;
+    width: 50%;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #a84646; }
+  .introducciones h1 {
+    color: #1b2945;
+    text-decoration: underline; }
+  .introducciones p, .introducciones .bordesEscuela .contenidoEscuela ul, .bordesEscuela .contenidoEscuela .introducciones ul, .introducciones .bordesEscuela .contenidoEscuela ul li, .bordesEscuela .contenidoEscuela ul .introducciones li, .introducciones .caracteristicasFlota div div .flotaTexto1 ul li, .caracteristicasFlota div div .flotaTexto1 ul .introducciones li, .introducciones section .contenedorServicios ul li, section .contenedorServicios ul .introducciones li {
+    font-family: "Cabin", sans-serif;
+    font-weight: 600;
+    color: #1b2945; }
+
+.bordesEscuela {
+  margin: 2rem;
+  border: 2px solid #1b2945;
+  border-radius: 5px;
+  box-shadow: 0px 15px 15px 3px black; }
+  .bordesEscuela .contenidoEscuela {
+    border-radius: 5px;
+    padding: 2rem;
+    background-color: #1b2945; }
+    .bordesEscuela .contenidoEscuela h4 {
+      font-family: "Orbitron", sans-serif;
+      color: azure;
+      text-decoration: underline; }
+    .bordesEscuela .contenidoEscuela h5 {
+      color: azure;
+      font-family: "Cabin", sans-serif;
+      font-weight: 500; }
+    .bordesEscuela .contenidoEscuela p, .bordesEscuela .contenidoEscuela ul, .bordesEscuela .contenidoEscuela ul li, .bordesEscuela .contenidoEscuela .caracteristicasFlota div div .flotaTexto1 ul li, .caracteristicasFlota div div .flotaTexto1 ul .bordesEscuela .contenidoEscuela li, section .contenedorServicios ul .bordesEscuela .contenidoEscuela li {
+      font-family: "Cabin", sans-serif;
+      font-weight: 400;
+      color: azure; }
+
+.flota {
+  display: flex;
+  justify-content: center;
+  border-left: 5px dotted #365f8d;
+  border-right: 5px dotted #365f8d;
+  margin: 4rem; }
+  .flota div .flotaTexto {
+    display: grid;
+    justify-content: center;
+    background-color: #a0a0a0;
+    color: #365f8d; }
+    .flota div .flotaTexto h5 {
+      font-family: "Orbitron", sans-serif;
+      color: #1b2945;
+      text-decoration: underline; }
+    .flota div .flotaTexto p, .flota div .flotaTexto .bordesEscuela .contenidoEscuela ul, .bordesEscuela .contenidoEscuela .flota div .flotaTexto ul, .flota div .flotaTexto .bordesEscuela .contenidoEscuela ul li, .bordesEscuela .contenidoEscuela ul .flota div .flotaTexto li, .flota .caracteristicasFlota div .flotaTexto div .flotaTexto1 ul li, .caracteristicasFlota .flota div .flotaTexto div .flotaTexto1 ul li, .flota .caracteristicasFlota div div .flotaTexto1 ul .flotaTexto li, .caracteristicasFlota .flota div div .flotaTexto1 ul .flotaTexto li, .flota div .flotaTexto section .contenedorServicios ul li, section .contenedorServicios ul .flota div .flotaTexto li {
+      font-family: "Orbitron", sans-serif;
+      color: #1b2945; }
+
+.caracteristicasFlota {
+  margin: 3rem; }
+  .caracteristicasFlota div div .imagenCaracteristicas {
+    border: 4px solid #b19517; }
+  .caracteristicasFlota div div .flotaTexto1 {
+    display: grid;
+    justify-content: center;
+    background-color: #1b2945; }
+    .caracteristicasFlota div div .flotaTexto1 h5 {
+      font-family: "Orbitron", sans-serif;
+      color: azure;
+      text-decoration: underline; }
+    .caracteristicasFlota div div .flotaTexto1 p, .caracteristicasFlota div div .flotaTexto1 .bordesEscuela .contenidoEscuela ul, .bordesEscuela .contenidoEscuela .caracteristicasFlota div div .flotaTexto1 ul, .bordesEscuela .contenidoEscuela ul .caracteristicasFlota div div .flotaTexto1 li, .caracteristicasFlota div div .flotaTexto1 ul li, section .contenedorServicios ul .caracteristicasFlota div div .flotaTexto1 li {
+      font-family: "Cabin", sans-serif;
+      color: azure; }
+
+section .acordeon .acordeonItems {
+  background-color: #365f8d;
+  color: azure;
+  border: 1px solid azure; }
+  section .acordeon .acordeonItems:hover {
+    background-color: azure;
+    color: #365f8d; }
+
+section .cartaServicios {
+  margin: 0.5rem;
+  margin-right: 1.5rem; }
+  section .cartaServicios .imagenServicios {
+    height: 35rem; }
+  section .cartaServicios div .tituloServicios {
+    display: flex;
+    justify-content: center;
+    font-family: "Orbitron", sans-serif;
+    color: whitesmoke;
+    border-style: solid;
+    border-radius: 15px;
+    margin-left: 22rem;
+    margin-right: 22rem;
+    border-color: whitesmoke;
+    background-color: #365f8d; }
+
+section div a {
+  font-family: "Orbitron", sans-serif;
+  color: #365f8d; }
+
+section .contenedorServicios {
+  border-radius: 35px;
+  margin: 0.1rem;
+  background-color: #292929; }
+  section .contenedorServicios h4 {
+    display: flex;
+    justify-content: center;
+    margin: 1rem;
+    padding-top: 2rem;
+    font-family: "Orbitron", sans-serif;
+    color: azure; }
+  section .contenedorServicios p, section .contenedorServicios .bordesEscuela .contenidoEscuela ul, .bordesEscuela .contenidoEscuela section .contenedorServicios ul, section .contenedorServicios .bordesEscuela .contenidoEscuela ul li, .bordesEscuela .contenidoEscuela ul section .contenedorServicios li, section .contenedorServicios .caracteristicasFlota div div .flotaTexto1 ul li, .caracteristicasFlota div div .flotaTexto1 ul section .contenedorServicios li, section .contenedorServicios ul li {
+    display: flex;
+    justify-content: center;
+    margin: 1rem;
+    font-family: "Cabin", sans-serif;
+    color: azure; }
+  section .contenedorServicios .contenedorServiciosImg {
+    display: grid;
+    gap: 0.5rem;
+    grid-template-columns: 50% 50%; }
+    section .contenedorServicios .contenedorServiciosImg .imagenesServicios {
+      width: 100%;
+      height: 100%;
+      border: solid 6px #365f8d;
+      border-radius: 35px; }
+
+/* Boton whatsapp */
+aside .botonWhatsApp a img {
+  width: 70px;
+  position: fixed;
+  z-index: 4;
+  bottom: 10px;
+  right: 10px; }
+
+/* Barra */
+.barra {
+  display: block;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  margin-left: 15%;
+  margin-right: 15%;
+  border-style: inset;
+  border-width: 2px; }
+
+/* Keyframes */
+@keyframes bounceInRight {}footer {
+  bottom: 0;
+  width: 100%; }
+  footer .card .footerBSTittle {
+    display: flex;
+    justify-content: center; }
+  footer .card .footerBS {
+    background-color: #365f8d;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly; }
+    footer .card .footerBS a .fab {
+      color: azure; }
+      footer .card .footerBS a .fab.fa-facebook:hover {
+        color: #2868dd; }
+      footer .card .footerBS a .fab.fa-instagram:hover {
+        color: #b03bc7; }
+      footer .card .footerBS a .fab.fa-youtube:hover {
+        color: #a72727; }
+      footer .card .footerBS a .fab.fa-whatsapp:hover {
+        color: #05b305; }
+
+/* TABLET */
+@media screen and (min-width: 577px) and (max-width: 768px) {
+  .contenedorMaster {
+    width: 100%;
+    overflow-x: hidden;
+    box-sizing: border-box; }
+  /* Navbar */
+  nav {
+    max-height: 8rem; }
+  .lista-nav {
+    display: none; }
+  .navbar {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-evenly; }
+  .dropdown {
+    display: flex;
+    margin-right: 7rem; }
+  .dropdown-menu {
+    background-color: cadetblue; }
+  .dropdown-item {
+    font-family: "Orbitron", sans-serif; }
+  .itemMobile {
+    text-decoration: none;
+    color: azure; }
+  /* Logo wsp */
+  .botonWhatsApp img {
+    display: none; }
+  /* Inicio */
+  .presentacion {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding-bottom: 1rem; }
+  /* Pagina Nosotros */
+  section .NuestroObjetivo {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap; }
+  .contenidoNosotros .cardInstructor1 .imagenInstructor {
+    height: auto; }
+  .contenidoNosotros .cardPrincipalInstructores {
+    margin-top: 1rem;
+    display: grid;
+    grid-template-columns: auto auto; }
+    .contenidoNosotros .cardPrincipalInstructores .instructoresCaras {
+      width: 100%; }
+  .contenidoNosotros .cardInstructor1 .cardInstructor2 .instructoresH5 {
+    font-family: "Cabin", sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #365f8d;
+    margin: 1rem; }
+  .contenidoNosotros aside .contenedorVideo {
+    color: none;
+    padding-bottom: 2rem; }
+    .contenidoNosotros aside .contenedorVideo .videoPipistrel {
+      width: 100%;
+      height: 25rem; }
+  /* Pagina Servicios */
+  section .cartaServicios {
+    display: none; }
+  section .contenedorServicios {
+    width: 97vw; }
+    section .contenedorServicios .contenedorServiciosImg {
+      display: flex;
+      flex-direction: column;
+      gap: 0.5rem; }
+    section .contenedorServicios ul {
+      margin-top: 1.5rem; }
+      section .contenedorServicios ul li {
+        display: flex;
+        justify-content: start; }
+  /* Contacto */
+  /* Escuela de Vuelo */
+  .cursos {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+    gap: 0.5rem; }
+    .cursos div div .contenedorCursos {
+      width: 100%;
+      height: auto;
+      margin: 0;
+      margin-top: 1rem;
+      min-height: 20rem; } }
+
+/* MOBILE */
+@media screen and (max-width: 576px) {
+  .contenedorMaster {
+    width: 100%;
+    overflow-x: hidden;
+    box-sizing: border-box; }
+  /* Navbar */
+  .lista-nav {
+    display: none; }
+  .navbar {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    max-width: 576px; }
+  .dropdown {
+    display: flex;
+    margin-right: 6rem; }
+  .dropdown-menu {
+    background-color: cadetblue; }
+  .dropdown-item {
+    font-family: "Orbitron", sans-serif; }
+  .itemMobile {
+    text-decoration: none;
+    color: azure; }
+  /* Logo wsp */
+  .botonWhatsApp img {
+    display: none; }
+  /* Inicio */
+  article .carousel {
+    height: 10rem; }
+  .texto {
+    margin-top: 5rem;
+    width: 100%; }
+    .texto iframe {
+      width: 300px;
+      height: 300px; }
+  .contenedorNasa {
+    width: 100%; }
+    .contenedorNasa .imagenesNasa {
+      width: 50%;
+      height: auto; }
+  .card-group {
+    display: block; }
+  /*.carousel {
+        display: none;
+    }*/
+  .presentacion {
+    display: flex;
+    flex-direction: column; }
+    .presentacion .imagenesinicio {
+      display: none; }
+  /* Pagina Nosotros */
+  section .NuestroObjetivo {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    margin: 0; }
+  .contenidoNosotros .cardInstructor1 .imagenInstructor {
+    height: auto; }
+  .contenidoNosotros .cardPrincipalInstructores {
+    margin-top: 1rem;
+    display: grid;
+    grid-template-columns: auto auto; }
+  .contenidoNosotros .cardInstructor1 .cardInstructor2 .instructoresH5 {
+    font-family: "Cabin", sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #365f8d;
+    margin: 1rem; }
+  .contenidoNosotros aside .contenedorVideo {
+    color: none;
+    padding-bottom: 2rem; }
+    .contenidoNosotros aside .contenedorVideo .videoPipistrel {
+      width: 100%;
+      height: 25rem; }
+  /* Pagina Contacto */
+  .cartaMobile {
+    height: 15rem; }
+  section div {
+    width: 100%;
+    height: auto; }
+  .formulario {
+    padding: 0 !important; }
+    .formulario .contenidoFormulario .textoItem {
+      width: 20rem; }
+  /* Pagina Servicios */
+  section .cartaServicios {
+    display: none; }
+  section .contenedorServicios {
+    width: 95vw; }
+    section .contenedorServicios .contenedorServiciosImg {
+      display: flex;
+      flex-direction: column;
+      gap: 0.5rem; }
+    section .contenedorServicios ul {
+      margin-top: 1.5rem; }
+      section .contenedorServicios ul li {
+        display: flex;
+        justify-content: start; }
+  /* Escuela de Vuelo */
+  .cursos div div .contenedorCursos {
+    width: 107%;
+    height: auto;
+    margin: 0;
+    margin-top: 1rem; }
+  article .bordesEscuela {
+    margin: 0; }
+    article .bordesEscuela .contenidoEscuela .imagenContenidoEscuela {
+      width: 100%;
+      height: auto;
+      box-sizing: border-box; } }
+
+* {
+  margin: 0;
+  padding: 0; }
+
+/* Body */
+body {
+  width: 100vw;
+  overflow-x: hidden;
+  min-height: 100vh;
+  margin: 0;
+  position: relative; }
+
+/* Formulario */
+.tituloBanner, .textoBanner {
+  display: flex;
+  justify-content: center;
+  font-family: 'Orbitron', sans-serif; }
+
+.textoBanner {
+  font-family: 'Cabin', sans-serif; }
+
+.barraFormulario {
+  display: block;
+  margin-top: 4rem;
+  margin-bottom: 1rem;
+  margin-left: 15%;
+  margin-right: 15%;
+  border-style: inset;
+  border-width: 2px; }
+
+.imagenFormulario {
+  height: 400px; }
+
+.imagenLogos {
+  width: 30%;
+  height: 30%; }
+
+.cartaLogos {
+  padding: 2rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  border-style: none; }
+
+.contendorLogos {
+  width: 100%; }
+
+.formulario {
+  padding: 5rem; }
+
+.contenedorFormulario {
+  border: 3px;
+  background: linear-gradient(#365f8d, #4e4e4e);
+  border-color: #365f8d;
+  border-style: solid;
+  border-radius: 15px;
+  box-shadow: 0px 10px 10px -6px black;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: azure;
+  font-family: 'Cabin', sans-serif;
+  font-weight: 400; }
+
+.tituloFormulario {
+  color: azure;
+  font-size: 24px;
+  margin-bottom: 3rem;
+  text-decoration: underline;
+  text-align: center; }
+
+.itemformulario1 {
+  color: azure; }
+
+.textoItem {
+  color: azure; }
+
+.botonesFormulario {
+  padding-top: 3rem;
+  display: flex;
+  gap: 4rem;
+  flex-direction: row;
+  justify-content: center; }
+
+#Nombre, #Apellido, #Teléfono, #Mail, #inputState {
+  background-color: #1b2945;
+  margin-bottom: 1rem; }
+
+#inputState {
+  color: azure; }
+
+.btn {
+  border-color: azure;
+  background-color: #1b2945;
+  color: azure; }
+
+input::placeholder {
+  color: azure !important; }
+
+input {
+  color: azure !important; }

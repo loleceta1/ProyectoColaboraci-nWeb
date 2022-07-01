@@ -1,0 +1,181 @@
+/* TABLET */
+
+@media screen and (min-width: 577px) and (max-width:768px) {
+
+    .contenedorMaster {
+        width: 100%;
+        overflow-x: hidden;
+        box-sizing: border-box;
+    }
+    
+
+    /* Navbar */
+
+    nav {
+        max-height: 8rem;
+    }
+
+    .lista-nav {
+        display: none;
+    }
+
+    .navbar {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: space-evenly;
+    }
+
+    .dropdown {
+        display: flex;
+        margin-right: 7rem;
+        
+    }
+
+    .dropdown-menu {
+        background-color: map-get($map: $mapaColores, $key: "menuHamburguesa");
+        
+    }
+
+    .dropdown-item {
+        font-family: $letraPrincipal;
+    }
+
+    .itemMobile {
+        text-decoration: none;
+        color: map-get($map: $mapaColores, $key: "elBlanco" );
+
+    }
+
+    /* Logo wsp */
+
+    .botonWhatsApp img {
+        display: none;
+    }
+
+    /* Inicio */
+
+    .presentacion {
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+        padding-bottom: 1rem;
+
+    }
+
+
+
+
+     /* Pagina Nosotros */
+
+     section {
+        .NuestroObjetivo {
+            display: flex;
+            flex-direction: column;
+            flex-wrap: nowrap;
+        }
+    }
+
+    .contenidoNosotros {
+
+        .cardInstructor1 {
+
+            .imagenInstructor {
+                height: auto;
+            }
+
+        }
+
+        .cardPrincipalInstructores {
+            margin-top: 1rem;
+            display: grid;
+            grid-template-columns: auto auto;
+            .instructoresCaras {
+                width: 100%;
+            }
+        }
+
+        .cardInstructor1 {
+
+            .cardInstructor2 {
+                
+                .instructoresH5 {
+                    font-family: $letraTexto;
+                    font-weight: 600;
+                    text-transform: uppercase;
+                    color: map-get($map: $mapaColores, $key: "azulPrincipal" );
+                    margin: 1rem;
+                }
+        
+            }
+            
+        } 
+
+
+        aside {
+            .contenedorVideo {
+                color: none;
+                padding-bottom: 2rem;
+                .videoPipistrel {
+                    width: 100%;
+                    height: 25rem;
+                }
+            }
+        }
+
+    }
+
+    /* Pagina Servicios */
+
+    section {
+        .cartaServicios {
+            display: none;
+        }
+
+
+        .contenedorServicios {
+            width: 97vw;
+            .contenedorServiciosImg {
+                display: flex;
+                flex-direction: column;
+                gap: 0.5rem;
+
+            }
+            ul {
+                margin-top: 1.5rem;
+                li {
+                    display: flex;
+                    justify-content: start;
+                }
+            }
+        }
+
+        
+    }
+
+
+    /* Contacto */
+
+    
+
+
+    /* Escuela de Vuelo */
+
+    .cursos{
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-template-rows: auto auto;
+        gap: 0.5rem;
+        div {
+            div {
+                .contenedorCursos {
+                    width: 100%;
+                    height: auto;
+                    margin: 0;
+                    margin-top: 1rem;
+                    min-height: 20rem;
+                }
+            }
+        }
+    }
+}

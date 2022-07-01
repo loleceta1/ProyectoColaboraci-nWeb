@@ -1,0 +1,42 @@
+@import "base/variables";
+
+footer {
+    bottom: 0;
+    width: 100%;
+        .card {
+            
+            .footerBSTittle {
+                display: flex;
+                justify-content: center;
+            }
+            .footerBS {
+                background-color: map-get($map: $mapaColores, $key: "azulPrincipal" );
+                display: flex;
+                flex-direction: row;
+                justify-content: space-evenly;
+
+                a {
+        
+                    .fab {
+                        color: $color-redes;
+
+                        &.fa-facebook:hover {
+                            color: $color-hover-facebook;
+                        }
+                        &.fa-instagram:hover {
+                            color: $color-hover-instagram;
+                        }
+                        &.fa-youtube:hover {
+                            color: $color-hover-youtube;
+                        }
+                        &.fa-whatsapp:hover {
+                            color: $color-hover-whatsapp;
+                        }
+                    }
+                    
+                }
+            }
+        }
+    
+}
+

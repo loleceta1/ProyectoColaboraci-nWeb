@@ -1,0 +1,159 @@
+
+
+/* Nosotros */
+
+@mixin posicion {
+    color: map-get($map: $mapaColores, $key: "elBlanco" );
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+    justify-items: center;
+    margin: 3rem;
+}
+
+@mixin barra2 {
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: 15%;
+    margin-right: 15%;
+    border-style: solid;
+    border-width: 2px;
+    border-color: $barra2;
+}
+
+@mixin textoSeparado {
+    font-family: $letraTexto;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.15rem;
+}
+
+
+
+
+.imagenNosotrosDiv {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 3rem;
+    .imagenNosotros {
+        border-radius: 10px;
+        border: 3px dashed grey;
+    }
+}
+
+section {
+    
+    .NuestroObjetivo {
+        height: auto;
+        display: grid;
+        gap: 0.5rem;
+        grid-template-columns: auto auto auto;
+        margin: 1rem;
+
+        .h3Nosotros {
+            align-self: center;
+            font-family: $letraPrincipal;
+            color: map-get($map: $mapaColores, $key: "azulPrincipal" );
+            hr {
+                @include barra2;
+            }
+        }
+
+        .textoNosotros {
+            font-family: $letraTexto;
+            background-color: map-get($map: $mapaColores, $key: "azulFondo" );
+            color: map-get($map: $mapaColores, $key: "elBlanco" );
+            padding: 1rem;
+        }
+    }
+}
+
+
+.contenidoNosotros {
+    background-color: map-get($map: $mapaColores, $key: "negroFondo" );
+    .cardsNosotros {
+        background: linear-gradient(45deg, $gradiente2, $gradiente1);
+        div {
+            div {
+                div {
+                    .tituloCardsNosotros {
+                        font-family: $letraPrincipal;
+                        color: map-get($map: $mapaColores, $key: "elBlanco" )
+                    }
+                    .textoCardsNosotros {
+                        font-family: $letraTexto;
+                        color: map-get($map: $mapaColores, $key: "elBlanco" );
+                    }
+                }
+            }
+        }
+        
+    }
+
+    .instructores {
+        @include posicion;
+        h3 {
+            font-family: $letraPrincipal;
+            margin-bottom: 2rem;
+        }
+        h6 {
+            @extend h3;
+        }
+        .textoInstructores {
+            @include textoSeparado;
+        }
+    }
+
+    .cardInstructor1 {
+        border: 0px;
+        .imagenInstructor {
+            height: 40rem;
+        }
+        .cardInstructor2 {
+            background-color: map-get($map: $mapaColores, $key: "negroFondo" );
+            .instructoresH5 {
+                @include textoSeparado;
+                color: map-get($map: $mapaColores, $key: "elBlanco" );
+                margin-top: 1rem;
+                padding-left: 3rem;
+            }
+        }
+    }
+
+    .cardPrincipalInstructores {
+        margin-top: 1rem;
+
+        div {
+            .contenedorInstructores {
+                background-color: map-get($map: $mapaColores, $key: "azulFondo" );
+                .imagenInstructores {
+                    border-radius: 300px;
+                    border: solid 0.3rem map-get($map: $mapaColores, $key: "azulPrincipal" );
+                }
+                div {
+                    h5 {
+                        font-family: $letraPrincipal;
+                        color: map-get($map: $mapaColores, $key: "elBlanco" );
+                    }
+                }
+            }
+        }
+        
+    }
+
+
+    aside {
+        .contenedorVideo {
+            @include posicion;
+            color: none;
+            padding-bottom: 2rem;
+            .videoPipistrel {
+                width: 100%;
+                height: 40rem;
+            }
+        }
+    }
+
+}
+
